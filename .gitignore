@@ -1,0 +1,34 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv/
+venv/
+
+# Data outputs
+data/raw/*.csv
+data/processed/*.csv
+data/analysis/*
+data/exports/*
+!data/raw/
+!data/processed/
+!data/analysis/
+!data/exports/
+
+# Reports & logs
+reports/*
+logs/*
+
+# Coverage & build artifacts
+.pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/
+

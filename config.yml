@@ -1,0 +1,57 @@
+# Configuration for Big Three Anime NLP project
+runtime:
+  headless: true
+  delay_seconds: 3.0 # Increased delay for larger scraping
+  page_limit: 20 # Increased to handle larger targets
+  out_dir_raw: "data/raw"
+  out_dir_clean: "data/clean"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+entities:
+  - key: "naruto_base"
+    entity: "Naruto (combined)"
+    series_component: "Naruto"
+    mal_id: 20
+    reviews_url: "https://myanimelist.net/anime/20/Naruto/reviews"
+    stats_url: "https://myanimelist.net/anime/20/Naruto/stats"
+    target_reviews: 300 # Full target
+
+  - key: "naruto_shippuden"
+    entity: "Naruto (combined)"
+    series_component: "Naruto Shippuden"
+    mal_id: 1735
+    reviews_url: "https://myanimelist.net/anime/1735/Naruto__Shippuden/reviews"
+    stats_url: "https://myanimelist.net/anime/1735/Naruto__Shippuden/stats"
+    target_reviews: 300 # Full target
+
+  - key: "one_piece"
+    entity: "One Piece"
+    series_component: "One Piece"
+    mal_id: 21
+    reviews_url: "https://myanimelist.net/anime/21/One_Piece/reviews"
+    stats_url: "https://myanimelist.net/anime/21/One_Piece/stats"
+    target_reviews: 600 # Full target - 3.75x increase!
+
+  - key: "bleach_base"
+    entity: "Bleach (combined)"
+    series_component: "Bleach"
+    mal_id: 269
+    reviews_url: "https://myanimelist.net/anime/269/Bleach/reviews"
+    stats_url: "https://myanimelist.net/anime/269/Bleach/stats"
+    target_reviews: 400 # Full target - 2.5x increase!
+
+  - key: "bleach_tybw_p1"
+    entity: "Bleach (combined)"
+    series_component: "Bleach TYBW Part 1"
+    mal_id: 41467
+    reviews_url: "https://myanimelist.net/anime/41467/Bleach__Sennen_Kessen_Hen__Ketsubetsu_Tan/reviews"
+    stats_url: "https://myanimelist.net/anime/41467/Bleach__Sennen_Kessen_Hen__Ketsubetsu_Tan/stats"
+    target_reviews: 100 # Full target
+
+  - key: "bleach_tybw_p2"
+    entity: "Bleach (combined)"
+    series_component: "Bleach TYBW Part 2"
+    mal_id: 41468
+    reviews_url: "https://myanimelist.net/anime/41468/Bleach__Sennen_Kessen_Hen__Saigo_no_15_Byoshi/reviews"
+    stats_url: "https://myanimelist.net/anime/41468/Bleach__Sennen_Kessen_Hen__Saigo_no_15_Byoshi/stats"
+    target_reviews: 100 # Full target

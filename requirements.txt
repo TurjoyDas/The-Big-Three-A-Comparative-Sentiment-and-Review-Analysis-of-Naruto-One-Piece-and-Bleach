@@ -1,0 +1,26 @@
+pandas
+numpy
+beautifulsoup4
+lxml
+selenium
+requests
+PyYAML
+vaderSentiment
+gensim
+scikit-learn
+scipy
+statsmodels
+textblob
+plotly
+
+# Optional advanced NLP (install later if needed)
+# transformers
+# torch
+# bertopic
+# spacy
+
+# Dev/test tools (optional for contributors)
+# pytest
+# pytest-cov
+# black
+# flake8

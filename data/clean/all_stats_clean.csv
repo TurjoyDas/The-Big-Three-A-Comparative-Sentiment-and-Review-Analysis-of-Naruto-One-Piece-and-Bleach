@@ -1,0 +1,7 @@
+entity,series_component,series_id,score_10_pct,score_9_pct,score_8_pct,score_7_pct,score_6_pct,score_5_pct,score_4_pct,score_3_pct,score_2_pct,score_1_pct,score_total_votes,status_watching,status_completed,status_on_hold,status_dropped,status_plan_to_watch,status_total_status
+Naruto (combined),Naruto,20,18.75,19.79,28.12,21.88,7.29,3.12,1.04,0.0,0.0,0.0,96,93,91,152,0,53,389
+Naruto (combined),Naruto Shippuden,1735,27.08,21.88,23.96,16.67,6.25,3.12,1.04,0.0,0.0,0.0,96,470,500,0,0,14,984
+One Piece,One Piece,21,46.88,20.83,16.67,9.38,3.12,2.08,0.0,0.0,0.0,1.04,96,1078,0,1137,0,0,2215
+Bleach (combined),Bleach,269,17.71,18.75,27.08,21.88,9.38,4.17,1.04,0.0,0.0,0.0,96,215,366,154,154,10,899
+Bleach (combined),Bleach TYBW Part 1,41467,45.26,30.53,16.84,5.26,1.05,0.0,0.0,0.0,0.0,1.05,95,7,13,0,0,10,30
+Bleach (combined),Bleach TYBW Part 2,41468,4.21,9.47,26.32,35.79,15.79,6.32,2.11,0.0,0.0,0.0,95,1,3,0,0,1,5
