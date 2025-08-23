@@ -1,0 +1,22 @@
+entity,aspect,num_reviews,mean_vader,median_vader
+Bleach (combined),filler,286,0.7422104895104895,0.98075
+Naruto (combined),filler,395,0.6733908860759493,0.979
+One Piece,filler,151,0.7136331125827815,0.9875
+Bleach (combined),animation,250,0.8028544000000001,0.984
+Naruto (combined),animation,188,0.6867058510638298,0.98785
+One Piece,animation,215,0.777019534883721,0.9884
+Bleach (combined),character,490,0.7249412244897959,0.98155
+Naruto (combined),character,500,0.6382378,0.97835
+One Piece,character,494,0.7559155870445344,0.9857
+Bleach (combined),pacing,108,0.751875925925926,0.9864
+Naruto (combined),pacing,151,0.6158304635761589,0.9802
+One Piece,pacing,254,0.7162783464566929,0.982
+Bleach (combined),fight,341,0.6901096774193549,0.9806
+Naruto (combined),fight,326,0.6064254601226994,0.98135
+One Piece,fight,247,0.7106210526315789,0.9883
+Bleach (combined),story,496,0.7274925403225806,0.9781500000000001
+Naruto (combined),story,509,0.6542750491159136,0.9779
+One Piece,story,468,0.7639350427350426,0.9869
+Bleach (combined),world,15,0.7836066666666667,0.9947
+Naruto (combined),world,7,0.3003428571428572,0.9371
+One Piece,world,38,0.7243921052631579,0.98875

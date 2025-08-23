@@ -1,0 +1,147 @@
+{
+  "entity_statistics": {
+    "Bleach (combined)": {
+      "count": 597,
+      "mean": 0.7213,
+      "std": 0.5643,
+      "median": 0.9736,
+      "min": -0.9993,
+      "max": 0.9999
+    },
+    "Naruto (combined)": {
+      "count": 599,
+      "mean": 0.6158,
+      "std": 0.6792,
+      "median": 0.9687,
+      "min": -0.9992,
+      "max": 0.9998
+    },
+    "One Piece": {
+      "count": 600,
+      "mean": 0.7436,
+      "std": 0.5629,
+      "median": 0.9806,
+      "min": -0.9996,
+      "max": 0.9999
+    }
+  },
+  "bootstrap_confidence_intervals": {
+    "Bleach (combined)": {
+      "statistic": "mean",
+      "point_estimate": 0.7213428810720268,
+      "ci_lower": 0.6723840684013257,
+      "ci_upper": 0.7629475173089595,
+      "confidence_level": 0.95,
+      "n_bootstrap": 10000,
+      "n_samples": 597
+    },
+    "Naruto (combined)": {
+      "statistic": "mean",
+      "point_estimate": 0.6158252086811353,
+      "ci_lower": 0.5556899967591739,
+      "ci_upper": 0.6679362512940646,
+      "confidence_level": 0.95,
+      "n_bootstrap": 10000,
+      "n_samples": 599
+    },
+    "One Piece": {
+      "statistic": "mean",
+      "point_estimate": 0.7436345,
+      "ci_lower": 0.6943595016707426,
+      "ci_upper": 0.7849244072634982,
+      "confidence_level": 0.95,
+      "n_bootstrap": 10000,
+      "n_samples": 600
+    }
+  },
+  "group_comparison": {
+    "test_name": "Kruskal-Wallis H-test",
+    "statistic": 13.29427745273594,
+    "p_value": 0.0012977299588574035,
+    "significant": "True",
+    "alpha": 0.05,
+    "n_groups": 3,
+    "group_names": [
+      "Bleach (combined)",
+      "Naruto (combined)",
+      "One Piece"
+    ],
+    "effect_sizes": {
+      "Bleach (combined)_vs_Naruto (combined)": {
+        "cliffs_delta": 0.040900104305612646,
+        "interpretation": "negligible",
+        "wins_group1": 185835,
+        "wins_group2": 171209,
+        "ties": 559,
+        "total_comparisons": 357603,
+        "n1": 597,
+        "n2": 599
+      },
+      "Bleach (combined)_vs_One Piece": {
+        "cliffs_delta": -0.08238972640982692,
+        "interpretation": "negligible",
+        "wins_group1": 164027,
+        "wins_group2": 193539,
+        "ties": 634,
+        "total_comparisons": 358200,
+        "n1": 597,
+        "n2": 600
+      },
+      "Naruto (combined)_vs_One Piece": {
+        "cliffs_delta": -0.11721480244852532,
+        "interpretation": "negligible",
+        "wins_group1": 158298,
+        "wins_group2": 200425,
+        "ties": 677,
+        "total_comparisons": 359400,
+        "n1": 599,
+        "n2": 600
+      }
+    },
+    "post_hoc": {}
+  },
+  "entity_pair_effects": [
+    {
+      "entity1": "Bleach (combined)",
+      "entity2": "Naruto (combined)",
+      "effect_size": {
+        "cliffs_delta": 0.040900104305612646,
+        "interpretation": "negligible",
+        "wins_group1": 185835,
+        "wins_group2": 171209,
+        "ties": 559,
+        "total_comparisons": 357603,
+        "n1": 597,
+        "n2": 599
+      }
+    },
+    {
+      "entity1": "Bleach (combined)",
+      "entity2": "One Piece",
+      "effect_size": {
+        "cliffs_delta": -0.08238972640982692,
+        "interpretation": "negligible",
+        "wins_group1": 164027,
+        "wins_group2": 193539,
+        "ties": 634,
+        "total_comparisons": 358200,
+        "n1": 597,
+        "n2": 600
+      }
+    },
+    {
+      "entity1": "Naruto (combined)",
+      "entity2": "One Piece",
+      "effect_size": {
+        "cliffs_delta": -0.11721480244852532,
+        "interpretation": "negligible",
+        "wins_group1": 158298,
+        "wins_group2": 200425,
+        "ties": 677,
+        "total_comparisons": 359400,
+        "n1": 599,
+        "n2": 600
+      }
+    }
+  ]
+}

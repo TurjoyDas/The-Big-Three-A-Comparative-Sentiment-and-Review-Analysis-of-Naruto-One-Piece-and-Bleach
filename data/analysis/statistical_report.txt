@@ -1,0 +1,43 @@
+============================================================
+STATISTICAL ANALYSIS REPORT
+============================================================
+
+ENTITY STATISTICS:
+--------------------
+Bleach (combined):
+  Count: 597
+  Mean: 0.7213
+  Std: 0.5643
+  95% CI: [0.6724, 0.7629]
+
+Naruto (combined):
+  Count: 599
+  Mean: 0.6158
+  Std: 0.6792
+  95% CI: [0.5557, 0.6679]
+
+One Piece:
+  Count: 600
+  Mean: 0.7436
+  Std: 0.5629
+  95% CI: [0.6944, 0.7849]
+
+GROUP COMPARISON:
+--------------------
+Test: Kruskal-Wallis H-test
+Statistic: 13.2943
+P-value: 0.001298
+Significant: Yes
+
+EFFECT SIZES (Cliff's Delta):
+------------------------------
+Bleach (combined) vs Naruto (combined):
+  Delta: 0.0409 (negligible)
+
+Bleach (combined) vs One Piece:
+  Delta: -0.0824 (negligible)
+
+Naruto (combined) vs One Piece:
+  Delta: -0.1172 (negligible)
+
+============================================================

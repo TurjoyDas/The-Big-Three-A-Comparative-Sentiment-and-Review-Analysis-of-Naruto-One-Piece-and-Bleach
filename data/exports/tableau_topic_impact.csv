@@ -1,0 +1,25 @@
+entity,lda_topic_id,lda_topic_label,num_reviews,mean_vader,median_vader
+Bleach (combined),0,Bleach Fan Debates,186,0.6630860215053763,0.9793000000000001
+Bleach (combined),1,One Piece Enthusiasm,73,0.7355301369863013,0.9703
+Bleach (combined),2,Niche Criticisms,21,0.48031428571428575,0.9066
+Bleach (combined),3,Universal Shonen Themes,71,0.7293943661971831,0.9814
+Bleach (combined),4,Bleach Character Focus,31,0.8184741935483871,0.975
+Bleach (combined),5,Cross-Series Comparisons,27,0.6555296296296297,0.9441
+Bleach (combined),6,Animation & Production,61,0.7791196721311475,0.9855
+Bleach (combined),7,Franchise Legacy,127,0.7963944881889764,0.9663
+Naruto (combined),0,Bleach Fan Debates,92,0.5750380434782609,0.97035
+Naruto (combined),1,One Piece Enthusiasm,18,0.2997222222222222,0.75685
+Naruto (combined),2,Niche Criticisms,12,0.7252333333333333,0.9716
+Naruto (combined),3,Universal Shonen Themes,36,0.3614,0.7971999999999999
+Naruto (combined),4,Bleach Character Focus,13,0.3931076923076923,0.8808
+Naruto (combined),5,Cross-Series Comparisons,383,0.6747046997389033,0.9758
+Naruto (combined),6,Animation & Production,10,0.63215,0.8812
+Naruto (combined),7,Franchise Legacy,35,0.5435371428571429,0.9294
+One Piece,0,Bleach Fan Debates,18,0.7171388888888889,0.952
+One Piece,1,One Piece Enthusiasm,40,0.6209325,0.9741
+One Piece,2,Niche Criticisms,26,0.8043269230769231,0.97125
+One Piece,3,Universal Shonen Themes,424,0.7819639150943397,0.9875
+One Piece,4,Bleach Character Focus,22,0.4757818181818182,0.9329000000000001
+One Piece,5,Cross-Series Comparisons,24,0.6476583333333333,0.9203
+One Piece,6,Animation & Production,32,0.667903125,0.94155
+One Piece,7,Franchise Legacy,14,0.6132714285714286,0.9097

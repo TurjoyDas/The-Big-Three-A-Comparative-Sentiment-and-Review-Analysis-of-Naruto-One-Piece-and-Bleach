@@ -1,0 +1,25 @@
+entity,lda_topic_id,lda_topic_label,num_reviews
+Bleach (combined),0,Bleach Fan Debates,186
+Bleach (combined),1,One Piece Enthusiasm,73
+Bleach (combined),2,Niche Criticisms,21
+Bleach (combined),3,Universal Shonen Themes,71
+Bleach (combined),4,Bleach Character Focus,31
+Bleach (combined),5,Cross-Series Comparisons,27
+Bleach (combined),6,Animation & Production,61
+Bleach (combined),7,Franchise Legacy,127
+Naruto (combined),0,Bleach Fan Debates,92
+Naruto (combined),1,One Piece Enthusiasm,18
+Naruto (combined),2,Niche Criticisms,12
+Naruto (combined),3,Universal Shonen Themes,36
+Naruto (combined),4,Bleach Character Focus,13
+Naruto (combined),5,Cross-Series Comparisons,383
+Naruto (combined),6,Animation & Production,10
+Naruto (combined),7,Franchise Legacy,35
+One Piece,0,Bleach Fan Debates,18
+One Piece,1,One Piece Enthusiasm,40
+One Piece,2,Niche Criticisms,26
+One Piece,3,Universal Shonen Themes,424
+One Piece,4,Bleach Character Focus,22
+One Piece,5,Cross-Series Comparisons,24
+One Piece,6,Animation & Production,32
+One Piece,7,Franchise Legacy,14
