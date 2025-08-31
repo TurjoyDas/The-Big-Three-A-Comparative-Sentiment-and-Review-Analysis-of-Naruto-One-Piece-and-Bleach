@@ -1,4 +1,4 @@
-#  Big Three Anime NLP — The Extraordinary Analysis
+#  Big Three Anime NLP — Comparative Review & Sentiment Analysis
 
 > **How fan sentiment and topics differ across Naruto (incl. Shippuden), One Piece, and Bleach (incl. TYBW Part 1 & 2) — and where text sentiment clashes with numeric scores.**
 
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Ready%20for%20Analysis-brightgreen.svg)]()
 
-## 🌟 The Spark — Why This Project?
+## 🌟 Why This Project?
 
 The "Big Three" — **Naruto**, **One Piece**, and **Bleach** — are cultural icons in anime, shaping global fandom for over two decades. Yet fan opinions often differ sharply between casual viewers, hardcore fans, and review scores.
 
@@ -28,7 +28,7 @@ To compare them fairly, we needed to:
 - **Extract emotions and themes** from thousands of fan-written reviews
 - **Respect privacy** by collecting no personal information
 
-##  The Architecture — Technical Excellence
+##  The Architecture
 
 ### **Multi-Model NLP Pipeline**
 
@@ -60,7 +60,8 @@ One Piece = One Piece
 ```bash
 # Clone and setup
 git clone <your-repo>
-cd big-three-anime-nlp-starter
+cd The-Big-Three-A-Comparative-Sentiment-and-Review-Analysis-of-Naruto-One-Piece-and-Bleach
+
 
 # Create virtual environment
 python -m venv .venv
@@ -149,22 +150,22 @@ The-Big-Three-A-Comparative-Sentiment-and-Review-Analysis-of-Naruto-One-Piece-an
 ├── docs/ # Documentation and reports
 │ ├── implementation_summary.md # Technical architecture & pipeline phases
 │ ├── pipeline_success_summary.md # End-to-end run results & discoveries
-│ └── topic_interpretation.md # Guide to LDA/BERTopic topic meaning
+│ └── topic_interpretation.md # Guide to topic modeling results
 │
 ├── src/ # Source code
-│ ├── scraping/ # Web scraping modules (reviews, stats)
-│ ├── processing/ # Data cleaning & entity merging
-│ ├── nlp/ # Sentiment analysis + topic modeling
+│ ├── scraping/ # Web scraping modules
+│ ├── processing/ # Data cleaning & merging
+│ ├── nlp/ # Sentiment + topic modeling
 │ ├── analysis/ # Statistical testing & effect sizes
-│ └── pipeline.py # Orchestrates full 5-phase pipeline
+│ └── pipeline.py # Orchestrates the 5-phase pipeline
 │
-├── .gitignore # Git ignore rules (cache, data dumps, logs)
-├── Dockerfile # Containerization for reproducible environment
-├── LICENSE # License information (MIT)
-├── Makefile # Automation commands (install, test, run pipeline)
+├── .gitignore # Ignore rules
+├── Dockerfile # Containerization
+├── LICENSE # License (MIT)
+├── Makefile # Automation commands
 ├── README.md # Project overview (this file)
-├── config.yml # Configuration file (entities, scraping params)
-└── requirements.txt # Python dependencies
+├── config.yml # Configuration file
+└── requirements.txt # Dependencies
 ```
 
 ## 🔧 Configuration
@@ -213,4 +214,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Ready to discover what fans really think about the Big Three?** 
 
-Run `python -m src.pipeline` and let the analysis begin!
+Run `python -m src.pipeline` to generate results.
