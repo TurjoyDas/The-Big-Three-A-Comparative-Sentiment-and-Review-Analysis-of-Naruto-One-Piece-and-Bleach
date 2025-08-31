@@ -19,7 +19,7 @@ This project goes beyond "average ratings" to uncover:
 
 ## 🎯 The Challenge — More Than Just Scraping
 
-MyAnimeList is one of the largest anime review platforms, but reviews are hidden behind "Read More" buttons, loaded dynamically, and spread across multiple versions of the same franchise — like Naruto Shippuden and Bleach's Thousand-Year Blood War.
+https://myanimelist.net/ is one of the largest anime review platforms, but reviews are hidden behind "Read More" buttons, loaded dynamically, and spread across multiple versions of the same franchise — like Naruto Shippuden and Bleach's Thousand-Year Blood War.
 
 To compare them fairly, we needed to:
 
