@@ -139,22 +139,32 @@ The pipeline generates **Tableau-ready datasets**:
 ## 📁 Project Structure
 
 ```
-big-three-anime-nlp-starter/
-├── 📊 data/                    # Data storage
-│   ├── raw/                   # Scraped data
-│   ├── processed/             # Merged datasets
-│   ├── analysis/              # NLP results
-│   └── exports/               # Tableau-ready files
-├── 🧠 src/                     # Source code
-│   ├── scraping/              # Web scraping modules
-│   ├── processing/            # Data merging & cleaning
-│   ├── nlp/                   # Sentiment & topic analysis
-│   ├── analysis/              # Statistical analysis
-│   └── pipeline.py            # End-to-end orchestration
-├── 📚 notebooks/              # Jupyter notebooks
-├── 📋 requirements.txt        # Dependencies
-├── ⚙️ config.yml              # Configuration
-└── 📖 README.md               # This file
+The-Big-Three-A-Comparative-Sentiment-and-Review-Analysis-of-Naruto-One-Piece-and-Bleach/
+├── data/ # Data storage
+│ ├── raw/ # Scraped data (direct from MyAnimeList)
+│ ├── processed/ # Cleaned & merged datasets
+│ ├── analysis/ # NLP results (sentiment, topics, stats)
+│ └── exports/ # Tableau-ready datasets and summaries
+│
+├── docs/ # Documentation and reports
+│ ├── implementation_summary.md # Technical architecture & pipeline phases
+│ ├── pipeline_success_summary.md # End-to-end run results & discoveries
+│ └── topic_interpretation.md # Guide to LDA/BERTopic topic meaning
+│
+├── src/ # Source code
+│ ├── scraping/ # Web scraping modules (reviews, stats)
+│ ├── processing/ # Data cleaning & entity merging
+│ ├── nlp/ # Sentiment analysis + topic modeling
+│ ├── analysis/ # Statistical testing & effect sizes
+│ └── pipeline.py # Orchestrates full 5-phase pipeline
+│
+├── .gitignore # Git ignore rules (cache, data dumps, logs)
+├── Dockerfile # Containerization for reproducible environment
+├── LICENSE # License information (MIT)
+├── Makefile # Automation commands (install, test, run pipeline)
+├── README.md # Project overview (this file)
+├── config.yml # Configuration file (entities, scraping params)
+└── requirements.txt # Python dependencies
 ```
 
 ## 🔧 Configuration
