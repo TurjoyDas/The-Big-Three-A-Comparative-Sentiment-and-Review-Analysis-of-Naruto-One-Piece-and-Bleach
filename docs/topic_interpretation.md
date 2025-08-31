@@ -70,9 +70,9 @@ Based on our LDA analysis of 1,796 reviews, here's what each topic represents:
 - **vader_neu**: How neutral the review is (0.0 to 1.0)
 - **vader_neg**: How negative the review is (0.0 to 1.0)
 
-## 🎨 **How to Use This in Tableau**
+## 🎨 **How to Interpret This in Tableau**
 
-### **1. Create Topic Labels (Calculated Fields)**
+### **1. Topic Labels (Calculated Fields)**
 
 ```sql
 -- Topic Labels
@@ -89,7 +89,7 @@ ELSE "Unknown Topic"
 END
 ```
 
-### **2. Create Sentiment Categories**
+### **2. Sentiment Categories**
 
 ```sql
 -- Sentiment Categories
@@ -104,29 +104,4 @@ ELSE "Very Negative"
 END
 ```
 
-### **3. Create Sentiment vs. Topic Stories**
-
-- **"Which topics make fans happiest?"** (Topic × Average Sentiment)
-- **"What do fans actually talk about?"** (Topic distribution by entity)
-- **"Where do opinions diverge?"** (Sentiment variance by topic)
-
-## 📖 **Sample Story Narratives**
-
-### **Story 1: "The Passion Divide"**
-
-- **Topic 0** (Bleach debates) has high sentiment variance
-- **Topic 3** (Universal themes) has consistent positive sentiment
-- **Insight**: "Fans agree on what makes anime great, but disagree on Bleach specifics"
-
-### **Story 2: "The One Piece Effect"**
-
-- **Topic 1** (One Piece focus) has highest average sentiment
-- **Topic 6** (Animation quality) is One Piece-dominated
-- **Insight**: "One Piece fans are the most satisfied, especially with production quality"
-
-### **Story 3: "The Universal Appeal"**
-
-- **Topic 3** (Universal themes) represents 29.6% of all discussions
-- **One Piece dominates this topic (424 vs 71 vs 36 reviews)**
-- **Insight**: "One Piece fans drive universal theme discussions, suggesting broader appeal"
 
