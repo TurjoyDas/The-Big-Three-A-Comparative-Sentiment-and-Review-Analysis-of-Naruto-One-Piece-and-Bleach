@@ -192,6 +192,9 @@ I processed 1,796 usable reviews (after cleaning/dedup from ~1,800 scraped) acro
 
 This project produces four Tableau dashboards, each combining multiple visualizations to reveal different angles of fan sentiment and reviews.
 
+You can see the dashboards [here](https://public.tableau.com/app/profile/turjoy.das/viz/TheBigThreeAComparativeSentimentandReviewAnalysisofNarutoOnePieceandBleach/Overview)
+
+
 ---
 
 ### 1️⃣ Overview Dashboard
