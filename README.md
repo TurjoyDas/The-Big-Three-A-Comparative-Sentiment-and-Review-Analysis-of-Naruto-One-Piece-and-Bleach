@@ -185,9 +185,57 @@ I processed 1,796 usable reviews (after cleaning/dedup from ~1,800 scraped) acro
 - ✅ **≥1500 quality reviews** with <5% duplicates
 - ✅ **Clear sentiment divergences** between text and scores
 - ✅ **Coherent topics** matching anime themes
-- ✅ **Fast dashboard** (<2s interactions)
 - ✅ **Statistical significance** with effect sizes
-- ✅ **Production-ready** pipeline with CI/CD
+- ✅ **Production-ready** pipeline
+
+## 📊 Dashboards
+
+This project produces four Tableau dashboards, each combining multiple visualizations to reveal different angles of fan sentiment and reviews.
+
+---
+
+### 1️⃣ Overview Dashboard
+![Overview Dashboard](docs/images/dashboard_overview.png)
+
+**Key Insights:**
+- ~86% of reviews across the Big Three are positive.  
+- Bleach reviews show the highest sentiment variance, with both strong praise and harsh criticism.  
+- Naruto reviews are the most divided, often due to filler pacing complaints.  
+- One Piece maintains the most consistent positive trend across time.
+
+---
+
+### 2️⃣ Topics Dashboard
+![Topics Dashboard](docs/images/dashboard_topics.png)
+
+**Key Insights:**
+- Universal shonen themes dominate ~30% of all reviews (character development, friendship, action).  
+- Bleach fans focus more on **debates** and internal fandom arguments.  
+- Naruto fans frequently compare the Big Three directly.  
+- One Piece reviews emphasize **world-building** and adventure.
+
+---
+
+### 3️⃣ Aspects Dashboard
+![Aspects Dashboard](docs/images/dashboard_aspects.png)
+
+**Key Insights:**
+- Animation quality and storytelling drive the strongest positive sentiment across entities.  
+- Filler episodes consistently drag sentiment down in Naruto and Bleach.  
+- Fights and iconic moments boost positive reviews, but pacing issues offset them.  
+- Character arcs are especially central in Bleach and Naruto.
+
+---
+
+### 4️⃣ Stats Dashboard
+![Stats Dashboard](docs/images/dashboard_stats.png)
+
+**Key Insights:**
+- One Piece has the **highest ratings overall**, but also the largest drop rate (length is a barrier).  
+- Naruto maintains **high completion** rates due to nostalgia and popularity.  
+- Bleach’s Thousand-Year Blood War (TYBW) revival brings a surge of new watchers.  
+- Watch status data shows millions of “Plan to Watch,” confirming long-term fandom interest.
+
 
 
 
