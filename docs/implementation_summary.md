@@ -2,9 +2,9 @@
 
 ## 🎯 What We've Built
 
-We've transformed a basic scraping project into an **extraordinary, production-ready NLP pipeline** that demonstrates technical excellence, analytical rigor, and compelling storytelling. Here's what makes this project truly stand out:
+We've made a **production-ready NLP pipeline** that demonstrates technical excellence, analytical rigor, and compelling storytelling.
 
-## 🌟 The Extraordinary Features
+## 🌟 The Features
 
 ### **1. Multi-Model NLP Pipeline**
 
@@ -26,7 +26,6 @@ We've transformed a basic scraping project into an **extraordinary, production-r
 - **Config-Driven**: YAML configuration for easy customization
 - **Modular Architecture**: Clear separation of concerns
 - **Error Handling**: Comprehensive logging and graceful failures
-- **Testing**: Unit tests and validation framework
 
 ### **4. Professional Tooling**
 
@@ -63,37 +62,6 @@ Raw Scraping → Cleaning → Merging → NLP → Statistics → Export
   HTML/JSON   Dedupe   Combined  Sentiment  CIs    Tableau
 ```
 
-## 📊 What Makes This "Extraordinary"
-
-### **Depth > Breadth**
-
-- **5 sources scraped** but analyzed as **3 combined entities**
-- **Crystal-clear merge logic** for fair comparisons
-- **Statistical significance** with effect sizes and confidence intervals
-
-### **Modern NLP Credibility**
-
-- **Baseline + Advanced models** for credibility
-- **Model comparison metrics** showing agreement rates
-- **Topic coherence** with anime-specific themes
-
-### **Production Touches**
-
-- **Clean repository structure** with professional organization
-- **Automated pipeline** with Makefile commands
-- **Reproducibility** with Docker and pinned dependencies
-- **Polished outputs** ready for Tableau dashboard
-
-## 🎨 Tableau Dashboard Features
-
-The pipeline generates **Tableau-ready datasets** with:
-
-- **KPI Cards**: Review counts, sentiment (±CI), combined scores
-- **Sentiment Distribution**: Violin/box plots by entity
-- **Score Histograms**: 10→1 distributions from MAL stats
-- **Topic Heatmaps**: Theme prevalence across entities
-- **Residual Analysis**: Sentiment vs. score scatter plots
-- **Interactive Filters**: Click topics to filter all views
 
 ## 🚀 Getting Started
 
@@ -130,50 +98,18 @@ make docker-run
 
 ## 📈 Success Metrics
 
-**What "Extraordinary" Looks Like:**
+**What success Looks Like:**
 
-- ✅ **≥500 quality reviews** with <5% duplicates
+- ✅ **≥1500 quality reviews** with <5% duplicates
 - ✅ **Clear sentiment divergences** between text and scores
 - ✅ **Coherent topics** matching anime themes
-- ✅ **Fast dashboard** (<2s interactions)
 - ✅ **Statistical significance** with effect sizes
 - ✅ **Production-ready** pipeline with CI/CD
 
-## 🎯 CV Impact
 
-This project demonstrates:
-
-1. **Technical Excellence**: Multi-model NLP, statistical rigor, production engineering
-2. **Analytical Thinking**: Entity mapping, sentiment-score divergence analysis
-3. **Storytelling**: Compelling narrative about fan sentiment vs. ratings
-4. **Professional Skills**: Docker, CI/CD, testing, documentation
-
-## 🚧 Next Steps
-
-### **Immediate (This Week)**
-
-1. **Test the pipeline** with one series end-to-end
-2. **Validate selectors** and adjust for MAL changes
-3. **Run baseline NLP** for initial insights
-4. **Create Tableau dashboard** with basic visualizations
-
-### **Short Term (Next 2 Weeks)**
-
-1. **Add advanced NLP** (BERTopic + transformer sentiment)
-2. **Implement statistical analysis** with confidence intervals
-3. **Polish dashboard** with story points and annotations
-4. **Create demo video** showcasing key insights
-
-### **Long Term (Next Month)**
-
-1. **Arc-level analysis** by tagging reviews to specific storylines
-2. **Time trend analysis** showing sentiment evolution
-3. **Character mention analysis** via NER or curated lexicons
-4. **Geographic insights** (if safely available)
 
 ## 🔧 Technical Implementation Details
 
-### **Key Files Created/Enhanced**
 
 - `src/nlp/sentiment_advanced.py` - Multi-model sentiment analysis
 - `src/nlp/topic_modeling_advanced.py` - LDA implementation + optional BERTopic, CLI + visuals
@@ -190,11 +126,6 @@ This project demonstrates:
 - Optional advanced (install on demand): transformers, torch, bertopic, spacy
 - Dev (optional): pytest, pytest-cov, black, flake8
 
-## 🌟 The Story
-
-This project tells a compelling story:
-
-> **"How fan sentiment and topics differ across the Big Three anime — and where text sentiment clashes with numeric scores."**
 
 It's not just about scraping data; it's about:
 
@@ -203,18 +134,10 @@ It's not just about scraping data; it's about:
 - **Quantifying the gap** between what fans say and what they rate
 - **Building a production system** that others can use and extend
 
-## 🎉 Why This Is Extraordinary
 
-1. **Technical Depth**: Multi-model NLP with statistical rigor
-2. **Production Quality**: Professional tooling and automation
-3. **Compelling Story**: Clear narrative about fan sentiment divergence
-4. **Reproducible**: Docker, testing, and comprehensive documentation
-5. **Extensible**: Modular architecture for future enhancements
-
-This project transforms raw web scraping into a **data science narrative** that showcases technical skill, analytical thinking, and the ability to turn complex data into compelling insights.
 
 ---
 
 **Ready to discover what fans really think about the Big Three?** 🚀
 
-Run `make pipeline` and let the extraordinary analysis begin!
+Run `make pipeline` and let the analysis begin!
